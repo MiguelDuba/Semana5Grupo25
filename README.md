@@ -44,8 +44,10 @@ Codigo de la herramientas de kraken y cypress
   Contraseña: UniandesMisw2022
 * Escenario #6: Editar una página
 * Escenario #7: Editar una página y salir sin guardar
+ *En este escenario se reportó un bug en la aplicación Ghost
 * Escenario #8: Cambiar contrseña con un valor de verificación de contraseña diferente al valor de nueva contraseña
 * Escenario #9: Cambiar contrseña con el mismo valor de la contraseña antigua
+ *En este escenario se reportó un bug en la aplicación Ghost
 * Escenario #10: Cambiar contraseña
 
 ### Escenarios
