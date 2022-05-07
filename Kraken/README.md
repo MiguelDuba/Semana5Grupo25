@@ -15,7 +15,7 @@
 
 ## Instrucciones
 * Asegurarse de que la aplicación Ghost se encuentre en ejecución
-* Preferiblemente usar un sistema operativo linux o máquina virtual de linux para evitar problemas al ejecutar los features
+* Preferiblemente usar un sistema operativo linux (virtual o físico) o Mac para evitar problemas al ejecutar los features
 * Ubicarse en la carpeta raiz del archivo de kraken de cada integrante del grupo
 * Ejecutar el comando:  ./node_modules/kraken-node/bin/kraken-node run
 
