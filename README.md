@@ -42,12 +42,11 @@ Codigo de la herramientas de kraken y cypress
   Versión Ghost: 4.41.3 
   Usuario utilizado: sg.ramirez940@uniandes.edu.co
   Contraseña: UniandesMisw2022
+* *Nota: los escenarios 7 y 9 generan un resultado fallido por hallazgo de bugs en la aplicación Ghost
 * Escenario #6: Editar una página
 * Escenario #7: Editar una página y salir sin guardar
- *En este escenario se reportó un bug en la aplicación Ghost
 * Escenario #8: Cambiar contrseña con un valor de verificación de contraseña diferente al valor de nueva contraseña
 * Escenario #9: Cambiar contrseña con el mismo valor de la contraseña antigua
- *En este escenario se reportó un bug en la aplicación Ghost
 * Escenario #10: Cambiar contraseña
 
 ### Escenarios
