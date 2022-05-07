@@ -4,9 +4,13 @@ Codigo de la herramientas de kraken y cypress
 * Kraken [Instrucciones](Kakren/README.md)
 ## Integrantes
 * Krishtian Barrera
+* * kd.barrera@uniandes.edu.co
 * Sara Maya
+* * s.mayav@uniandes.edu.co
 * Sara Ramirez
+* * sg.ramirez940@uniandes.edu.co
 * Miguel Dueñas
+* * m.duenasb@uniandes.edu.co
 ## Funcionalidades a probar
 * Crear Post
 * Editar Post
