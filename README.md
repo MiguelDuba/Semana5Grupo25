@@ -1,7 +1,7 @@
 # Pruebas E2E Semana 5
 Codigo de la herramientas de kraken y cypress
-Cypress [Instrucciones](Cypress/README.md)
-Kraken [Instrucciones](Kakren/README.md)
+* Cypress [Instrucciones](Cypress/README.md)
+* Kraken [Instrucciones](Kakren/README.md)
 ## Integrantes
 * Krishtian Barrera
 * Sara Maya
