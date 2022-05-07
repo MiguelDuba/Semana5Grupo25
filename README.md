@@ -38,8 +38,4 @@ Codigo de la herramientas de kraken y cypress
 * Escenario #18:
 * Escenario #19:
 * Escenario #20:
-## Pros y Contras
-| Herramienta | Pros | Contras |
-|:------------|:-----|:--------|
-| Cypress | | |
-| Kraken | | |
+
