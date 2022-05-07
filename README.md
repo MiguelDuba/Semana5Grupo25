@@ -18,11 +18,16 @@ Codigo de la herramientas de kraken y cypress
 * Actualizar Contraseña
 * Actualizar Miembro
 ## Escenario de pruebas
-* Escenario #1:
-* Escenario #2:
-* Escenario #3:
-* Escenario #4:
-* Escenario #5:
+### Escenario de Pruebas Archivo KBarrera 
+  Versión Ghost: 4.41.3 (Docker)
+  Usuario utilizado: Admin@ghost.com
+  Contraseña: Krishtian98
+* Escenario #1: Creación de post con contenido
+* Escenario #2: Creación de post sin titulo ni contenido
+* Escenario #3: Creación de tag sin nombre
+* Escenario #4: Creación de tag completo
+* Escenario #5: Botón Retry cuando se crea un tag con error no ejecuta
+### Escenario 
 * Escenario #6:
 * Escenario #7:
 * Escenario #8:
