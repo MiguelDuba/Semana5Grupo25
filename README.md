@@ -2,6 +2,12 @@
 Codigo de la herramientas de kraken y cypress
 * Cypress [Instrucciones](Cypress/README.md)
 * Kraken [Instrucciones](Kakren/README.md)
+*
+## Consideraciones a tener en cuenta para hacer las pruebas
+* Se debe tener instalada localmente en un directorio la aplicación Ghost versión 4.41.3
+* La aplicación debe estar en ejecución antes de hacer las pruebas
+* Para correr la aplicación Ghost, en la terminal se debe ubicar en el directorio base de la aplicación y ejecutar el comando: ghost start
+
 ## Integrantes
 * Krishtian Barrera
 * * kd.barrera@uniandes.edu.co
@@ -31,12 +37,16 @@ Codigo de la herramientas de kraken y cypress
 * Escenario #3: Creación de tag sin nombre
 * Escenario #4: Creación de tag completo
 * Escenario #5: Botón Retry cuando se crea un tag con error no ejecuta
-### Escenario 
-* Escenario #6:
-* Escenario #7:
-* Escenario #8:
-* Escenario #9:
-* Escenario #10:
+
+### Escenarios de Pruebas Archivo SRamirez 
+  Versión Ghost: 4.41.3 (Docker)
+  Usuario utilizado: sg.ramirez940@uniandes.edu.co
+* Escenario #6: Editar una página
+* Escenario #7: Editar una página y salir sin guardar
+* Escenario #8: Cambiar contrseña con un valor de verificación de contraseña diferente al valor de nueva contraseña
+* Escenario #9: Cambiar contrseña con el mismo valor de la contraseña antigua
+* Escenario #10: Cambiar contraseña
+### Escenarios
 * Escenario #11:
 * Escenario #12:
 * Escenario #13:
