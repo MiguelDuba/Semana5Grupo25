@@ -11,6 +11,7 @@
 ### Kraken SRamirez
 * Usuario: sg.ramirez940@uniandes.edu.co
 * Contraseña: UniandesMisw2022
+* Versión node: 12.22.1
 * Ghost 4.41.3
 * Puerto :2368
 * Escenarios 6-10
