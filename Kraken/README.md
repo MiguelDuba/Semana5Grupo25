@@ -21,7 +21,7 @@
 * Usuario: s.mayav@uniandes.edu.co
 * Contraseña: Q*5S#9iKWaNVkhF
 * Versión node: 16.14.2
-* Ghost 4.41.3
+* Ghost 4.41.3 (Docker)
 * Puerto :2368
 * Escenarios 11-15
 
