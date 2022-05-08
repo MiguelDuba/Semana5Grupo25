@@ -17,6 +17,14 @@
 * Puerto :2368
 * Escenarios 6-10
 
+### Kraken SMaya
+* Usuario: s.mayav@uniandes.edu.co
+* Contraseña: Q*5S#9iKWaNVkhF
+* Versión node: 16.14.2
+* Ghost 4.41.3
+* Puerto :2368
+* Escenarios 11-15
+
 ## Instrucciones
 * Asegurarse de que la aplicación Ghost se encuentre en ejecución
 * Preferiblemente usar un sistema operativo linux (virtual o físico) o Mac para evitar problemas al ejecutar los features
