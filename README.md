@@ -59,10 +59,13 @@ Codigo de la herramientas de kraken y cypress
 * Escenario #14: Editar un tag sin nombre
 * Escenario #15: Corregir un tag editado
 
-### Escenarios
-* Escenario #16:
-* Escenario #17:
-* Escenario #18:
-* Escenario #19:
-* Escenario #20:
+### Escenarios de Pruebas Archivo Miguel Dueñas
+Versión Ghost: 4.41.3 (Docker)
+  Usuario utilizado: test@test.com
+  Contraseña: 12345678910
+* Escenario #16: Editar post
+* Escenario #17: Regresar evitando guardar un post editado
+* Escenario #18: Crear miembro
+* Escenario #19: Editar miembro
+* Escenario #20: Limpiar mensajes de error al editar un miembro
 

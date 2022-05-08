@@ -1,7 +1,7 @@
 Feature: Editar miembro
 
 @user1 @web
-Scenario: Editar miembro
+Scenario: Cambiar nombre
     Given I navigate to page "http://localhost:2368/ghost/"
     And I wait for 3 seconds
     When I enter email 'test@test.com'
@@ -16,4 +16,4 @@ Scenario: Editar miembro
     And I click Save
     And I wait for 2 seconds
     And I go to the members list
-    then I expect see the new member name in the list
+    Then I expect see the new member name in the list

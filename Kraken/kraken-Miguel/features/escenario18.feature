@@ -17,4 +17,4 @@ Scenario: Crear miembro
     And I click Save
     And I wait for 2 seconds
     And I go to the members list
-    then I expect see the new member in the list
+    Then I expect see the new member in the list
