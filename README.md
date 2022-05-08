@@ -49,12 +49,17 @@ Codigo de la herramientas de kraken y cypress
 * Escenario #9: Cambiar contrseña con el mismo valor de la contraseña antigua
 * Escenario #10: Cambiar contraseña
 
+### Escenarios de Pruebas Archivo SMaya
+  Versión Ghost: 4.41.3 (Docker)
+  Usuario utilizado: s.mayav@uniandes.edu.co
+  Contraseña: Q*5S#9iKWaNVkhF
+* Escenario #11: Pagina con contenido
+* Escenario #12: Pagina sin contenido
+* Escenario #13: Editar un tag
+* Escenario #14: Editar un tag sin nombre
+* Escenario #15: Corregir un tag editado
+
 ### Escenarios
-* Escenario #11:
-* Escenario #12:
-* Escenario #13:
-* Escenario #14:
-* Escenario #15:
 * Escenario #16:
 * Escenario #17:
 * Escenario #18:

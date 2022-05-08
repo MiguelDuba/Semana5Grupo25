@@ -1,0 +1,59 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "publicar-página;publicar-una-página-con-contenido",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Publicar una página con contenido",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 659000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to page “http://localhost:2368/ghost/”",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          },
+          {
+            "name": "@web",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "publicar-página",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Publicar página",
+    "tags": [],
+    "uri": "features\\my_first.feature"
+  }
+]
