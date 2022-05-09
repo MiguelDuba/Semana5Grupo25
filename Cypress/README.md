@@ -6,7 +6,9 @@
 * Usuario: admin@ghost.com
 * Contraseña: Krishtian98
 * Docker-Ghost: Ghost 4.41.3
+* Puerto: 3001
 * Escenarios: 1-5
+* Para el correcto funcionamiento es necesario instalar la extensión xpath para cypress (npm install -D cypress-xpath)
 
 ### Cypress SRamirez
 * Usuario: sg.ramirez940@uniandes.edu.co
