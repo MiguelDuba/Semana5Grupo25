@@ -37,6 +37,12 @@ Then('I click on publish3', async function () {
     let element = await this.driver.$('#ember98');
     return await element.click();
 });
+
+Then('I expect to return to post list', async function () {
+    let element = await this.driver.$('.gh-btn-primary');
+    return await await element.waitForExist(2000);
+});
+
 Then('I click on post', async function () {
     let element = await this.driver.$('#ember77');
     return await element.click();
@@ -55,7 +61,7 @@ Then('I click on new Tag', async function () {
     return await element.click();
 });
 Then('I click on save', async function () {
-    let element = await this.driver.$('#ember87');
+    let element = await this.driver.$('.gh-btn-icon');
     return await element.click();
 });
 Then('I click on tagname', async function () {
@@ -63,12 +69,27 @@ Then('I click on tagname', async function () {
     return await element.click();
 });
 
-Then('I click on leave', async function () {
+Then('I expect to have the leave button', async function () {
     let element = await this.driver.$('//button/span[text()="Leave"]');
-    return await element.click();
+    return await element.waitForExist(2000);
 });
 
 Then('I click on tagslug', async function () {
     let element = await this.driver.$('#tag-slug');
     return await element.click();
+});
+
+Then('I expect to not be able to post', async function() {
+    let element = await this.driver.$('.error>.response');
+    return await element.waitForExist(2000);
+  });
+
+Then('I expect to be able to see tag list', async function() {
+    let element = await this.driver.$('.gh-btn-primary');
+    return await element.waitForExist(2000);
+});
+
+Then('I expect to be able to see new tag', async function() {
+    let element = await this.driver.$('//section/ol/li//h3[text()="Tag_conError_Para_Busqueda"]//ancestor::li');
+    return await element.waitForExist(2000);
 });

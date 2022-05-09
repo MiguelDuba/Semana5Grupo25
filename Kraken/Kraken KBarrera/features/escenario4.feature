@@ -27,3 +27,5 @@ Scenario: Creación de tag completo
 
   And I click tags
   And I wait for 5 seconds
+
+  And I expect to be able to see tag list

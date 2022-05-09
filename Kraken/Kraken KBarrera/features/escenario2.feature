@@ -1,7 +1,7 @@
 Feature: Crear Post
 
 @user1 @web
-Scenario: Creación de post sin titulo ni contenido
+Scenario: Creación de post sin titulo ni contenido - Error encontrado
   Given I navigate to page "http://localhost:3001/ghost/#/settings/staff/admin"
   And I wait for 5 seconds
   When I enter email 'Admin@ghost.com'
@@ -30,3 +30,5 @@ Scenario: Creación de post sin titulo ni contenido
   And I wait for 2 seconds
   And I click on post
   And I wait for 7 seconds
+
+  And I expect to not be able to post

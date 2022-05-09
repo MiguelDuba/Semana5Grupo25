@@ -1,7 +1,7 @@
 Feature: Crear Tag 
 
 @user1 @web
-Scenario: Creación de tag sin nombre
+Scenario: Creación de tag sin nombre no debe guardar
   Given I navigate to page "http://localhost:3001/ghost/#/settings/staff/admin"
   And I wait for 3 seconds
   When I enter email 'Admin@ghost.com'
@@ -19,16 +19,7 @@ Scenario: Creación de tag sin nombre
   And I click on save
   And I wait for 2 seconds
 
-  And I click on tagname
-  And I wait for 2 seconds
-
-  And I enter text "Tag de prueba Kraken"
-  And I wait for 2 seconds
-
-  And I click on save
-  And I wait for 2 seconds
-
   And I click tags
   And I wait for 2 seconds
-  And I click on leave
-  And I wait for 2 seconds
+
+  And I expect to have the leave button
