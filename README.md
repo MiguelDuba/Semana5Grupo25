@@ -1,7 +1,7 @@
 # Pruebas E2E Semana 5
 Codigo de la herramientas de kraken y cypress
 * Cypress [Instrucciones](Cypress/README.md)
-* Kraken [Instrucciones](Kakren/README.md)
+* Kraken [Instrucciones](Kraken/README.md)
 
 ## Consideraciones a tener en cuenta para hacer las pruebas
 * Se debe tener instalada localmente en un directorio la aplicación Ghost versión 4.41.3
