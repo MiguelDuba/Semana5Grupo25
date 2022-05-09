@@ -36,7 +36,7 @@ Codigo de la herramientas de kraken y cypress
 * Escenario #2: Creación de post sin titulo ni contenido
 * Escenario #3: Creación de tag sin nombre
 * Escenario #4: Creación de tag completo
-* Escenario #5: Botón Retry cuando se crea un tag con error no ejecuta
+* Escenario #5: Creación de tag sin nombre corregido
 
 ### Escenarios de Pruebas Archivo SRamirez 
   Versión Ghost: 4.41.3 
