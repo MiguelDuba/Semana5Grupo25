@@ -6,6 +6,7 @@
 * Usuario: admin@ghost.com
 * Contraseña: Krishtian98
 * Docker-Ghost: Ghost 4.41.3
+* Versión node: 16.14.2
 * Puerto :3001
 * Escenarios: 1-5
 
