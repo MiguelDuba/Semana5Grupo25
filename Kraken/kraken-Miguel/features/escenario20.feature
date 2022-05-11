@@ -1,7 +1,7 @@
 Feature: Editar miembro
 
 @user1 @web
-Scenario: Editar miembro
+Scenario: Limpiar mensajes de error al editar un miembro
     Given I navigate to page "http://localhost:2368/ghost/"
     And I wait for 3 seconds
     When I enter email 'test@test.com'
