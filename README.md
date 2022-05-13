@@ -1,3 +1,6 @@
+# Pruebas regresión semana 6
+El código e instrucciones correspondientes a las modificaciones de las pruebas E2E y las pruebas de regresión, se encuentran en la carpeta "semana 6" del repositorio
+
 # Pruebas E2E Semana 5
 Codigo de la herramientas de kraken y cypress
 * Cypress [Instrucciones](Cypress/README.md)
