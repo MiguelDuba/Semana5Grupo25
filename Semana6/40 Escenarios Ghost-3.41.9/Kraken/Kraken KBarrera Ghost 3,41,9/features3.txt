@@ -1,0 +1,140 @@
+
+
+
+Feature: Feature Krishtian Barrera
+
+
+@user3 @web
+Scenario: Creación de tag sin nombre no debe guardar
+  Given I navigate to page "http://localhost:3003/ghost/#/signin"
+  And I wait for 3 seconds
+  When I enter email 'Admin@ghost.com'
+  And I wait for 1 seconds
+  And I enter password 'Krishtian98'
+  And I wait for 2 seconds
+  And I click next
+  And I wait for 3 seconds
+ Then I save device snapshot in file with path CrearTagSinNombre/esc3-1-menuPrincipal
+
+  Then I click tags
+  And I wait for 2 seconds
+   Then I save device snapshot in file with path CrearTagSinNombre/esc3-2-Tags
+
+  And I click on new Tag
+  And I wait for 2 seconds
+   Then I save device snapshot in file with path
+   CrearTagSinNombre/esc3-3-New Tag
+
+  And I click on save
+  And I wait for 2 seconds
+   Then I save device snapshot in file with path CrearTagSinNombre/esc3-4-GuardarTag
+
+  And I click tags
+  And I wait for 2 seconds
+   Then I save device snapshot in file with path CrearTagSinNombre/esc3-5-ListaTags2
+
+  And I expect to have the leave button
+   Then I save device snapshot in file with path CrearTagSinNombre/esc3-6-EmergenteLeave
+
+Feature: Crear Tag
+
+@user4 @web
+Scenario: Creación de tag completo
+  Given I navigate to page "http://localhost:3003/ghost/#/signin"
+  And I wait for 3 seconds
+  When I enter email 'Admin@ghost.com'
+  And I wait for 1 seconds
+  And I enter password 'Krishtian98'
+  And I wait for 2 seconds
+  And I click next
+  Then I save device snapshot in file with path CrearTagExitoso/esc4-1-menuPrincipal
+  
+  And I wait for 3 seconds
+  Then I click tags
+  And I wait for 2 seconds
+  Then I save device snapshot in file with path CrearTagExitoso/esc4-2-Tags
+
+  And I click on new Tag
+  And I wait for 2 seconds
+  Then I save device snapshot in file with path CrearTagExitoso/esc4-3-New Tag
+
+  And I click on tagname
+  And I wait for 2 seconds
+
+  And I enter text "Tag de prueba Kraken"
+  And I wait for 2 seconds
+  Then I save device snapshot in file with path CrearTagExitoso/esc4-4-Dar nombre
+
+  And I click on article
+  And I wait for 2 seconds
+
+  And I enter text "Descripción Tag para Kraken"
+  And I wait for 2 seconds
+  Then I save device snapshot in file with path CrearTagExitoso/esc4-5-Dar contenido
+
+  And I click on save
+  And I wait for 2 seconds
+  Then I save device snapshot in file with path CrearTagExitoso/esc4-6-GuardarTag
+
+  And I click tags
+  And I wait for 5 seconds
+  Then I save device snapshot in file with path CrearTagExitoso/esc4-7-ListaTags2
+
+  And I expect to be able to see tag list
+  Then I save device snapshot in file with path CrearTagExitoso/esc4-8-EmergenteLeave
+
+
+
+Feature: Crear Tag
+
+@user1 @web
+Scenario: Corregir tag creado con error debe de guardarse (ERROR Encontrado)
+  Given I navigate to page "http://localhost:3003/ghost/#/signin"
+  And I wait for 3 seconds
+  When I enter email 'Admin@ghost.com'
+  And I wait for 1 seconds
+  And I enter password 'Krishtian98'
+  And I wait for 2 seconds
+  And I click next
+  And I wait for 3 seconds
+  Then I save device snapshot in file with path CrearTagCorregirNombre/esc5-1-menuPrincipal
+
+  Then I click tags
+  And I wait for 2 seconds
+  Then I save device snapshot in file with path CrearTagCorregirNombre/esc5-2-Tags
+
+  And I click on new Tag
+  And I wait for 2 seconds
+  Then I save device snapshot in file with path
+  CrearTagCorregirNombre/esc5-3-New Tag
+
+  And I click on save
+  And I wait for 2 seconds
+  Then I save device snapshot in file with path
+  CrearTagCorregirNombre/esc5-4-GuardarTag
+
+  And I click on tagname
+  And I wait for 2 seconds
+
+  And I enter text "Tag_conError_Para_Busqueda"
+  And I wait for 2 seconds
+  Then I save device snapshot in file with path
+  CrearTagCorregirNombre/esc5-5-Dar nombre
+
+  And I click on article
+  And I wait for 2 seconds
+
+  And I enter text "Descripción Tag para Kraken"
+  And I wait for 2 seconds
+  Then I save device snapshot in file with path CrearTagCorregirNombre/esc5-6-Dar contenido
+
+  And I click on save
+  And I wait for 2 seconds
+  Then I save device snapshot in file with path CrearTagCorregirNombre/esc5-7-GuardarTag2
+
+  And I click tags
+  And I wait for 2 seconds
+  Then I save device snapshot in file with path CrearTagCorregirNombre/esc5-8-ListaTags2
+
+  And I expect to be able to see new tag
+  Then I save device snapshot in file with path CrearTagCorregirNombre/esc5-9-EmergenteLeave
