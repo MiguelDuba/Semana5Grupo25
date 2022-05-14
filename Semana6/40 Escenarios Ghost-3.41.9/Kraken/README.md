@@ -1,4 +1,4 @@
-# Instrucciones de configuracion de Kakren
+# Instrucciones de configuración de Kakren
 
 En la carpeta de cada integrante se puede encontrar los escenarios asignados a cada uno con la modificación correspondiente para toma de screenshots en cada paso. 
 Versión de Ghost: 4.41.3
