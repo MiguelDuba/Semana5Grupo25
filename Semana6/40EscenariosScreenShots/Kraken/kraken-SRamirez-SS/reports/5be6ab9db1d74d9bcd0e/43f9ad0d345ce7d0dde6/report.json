@@ -1,0 +1,428 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "cambiar-contraseña;como-usuario-administrador-del-sitio-intento-cambiar-la-contraseña-con-un-valor-de-verificación-de-contraseña-diferente-a-la-contraseña-nueva",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Como usuario administrador del sitio intento cambiar la contraseña con un valor de verificación de contraseña diferente a la contraseña nueva",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to page \"http://192.168.31.84:2368/ghost/\"",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\web.js:41"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 19518000000,
+              "error_message": "Navigation failed because browser has disconnected!\nError: Navigation failed because browser has disconnected!\n    at C:\\proyecto-ghost-kraken-regresion\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\LifecycleWatcher.js:51:147\n    at C:\\proyecto-ghost-kraken-regresion\\node_modules\\puppeteer-core\\lib\\cjs\\vendor\\mitt\\src\\index.js:51:62\n    at Array.map (<anonymous>)\n    at Object.emit (C:\\proyecto-ghost-kraken-regresion\\node_modules\\puppeteer-core\\lib\\cjs\\vendor\\mitt\\src\\index.js:51:43)\n    at CDPSession.emit (C:\\proyecto-ghost-kraken-regresion\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\EventEmitter.js:72:22)\n    at CDPSession._onClosed (C:\\proyecto-ghost-kraken-regresion\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Connection.js:271:14)\n    at Connection._onMessage (C:\\proyecto-ghost-kraken-regresion\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Connection.js:105:25)\n    at WebSocket.<anonymous> (C:\\proyecto-ghost-kraken-regresion\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\node\\NodeWebSocketTransport.js:13:32)\n    at WebSocket.onMessage (C:\\proyecto-ghost-kraken-regresion\\node_modules\\ws\\lib\\event-target.js:199:18)\n    at WebSocket.emit (events.js:314:20)\n    at WebSocket.EventEmitter.emit (domain.js:483:12)\n    at Receiver.receiverOnMessage (C:\\proyecto-ghost-kraken-regresion\\node_modules\\ws\\lib\\websocket.js:1137:20)\n    at Receiver.emit (events.js:314:20)\n    at Receiver.EventEmitter.emit (domain.js:483:12)\n    at Receiver.dataMessage (C:\\proyecto-ghost-kraken-regresion\\node_modules\\ws\\lib\\receiver.js:528:14)\n    at Receiver.getData (C:\\proyecto-ghost-kraken-regresion\\node_modules\\ws\\lib\\receiver.js:446:17)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I take a screenshot '8.1'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I enter email 'sg.ramirez940@uniandes.edu.co'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:4"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I take a screenshot '8.2'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I enter password 'UniandesMisw2022'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I take a screenshot '8.3'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click next",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I take a screenshot '8.4'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click user icon",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:83"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I take a screenshot '8.5'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I go to user profile",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:88"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I take a screenshot '8.6'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I enter old password 'UniandesMisw2022'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:93"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I take a screenshot '8.7'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I enter new password 'UniandesMisw2022nueva'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I take a screenshot '8.8'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I confirm new password 'UniandesMisw2022diferente'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:103"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I take a screenshot '8.9'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I click Change Password button",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:108"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules\\kraken-node\\lib\\steps\\both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I take a screenshot '8.10'",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I expect to not be able to save the new password",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:123"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 9000000,
+              "error_message": "Error: no current window handle registered\n    at DevToolsDriver.getPageHandle (C:\\proyecto-ghost-kraken-regresion\\node_modules\\devtools\\build\\devtoolsdriver.js:166:19)\n    at DevToolsDriver.checkPendingNavigations (C:\\proyecto-ghost-kraken-regresion\\node_modules\\devtools\\build\\devtoolsdriver.js:179:25)\n    at Browser.wrappedCommand (C:\\proyecto-ghost-kraken-regresion\\node_modules\\devtools\\build\\devtoolsdriver.js:97:24)\n    at Browser.wrapCommandFn (C:\\proyecto-ghost-kraken-regresion\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n    at Browser.<anonymous> (C:\\proyecto-ghost-kraken-regresion\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at WebClient.<anonymous> (C:\\proyecto-ghost-kraken-regresion\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:109:59)\n    at step (C:\\proyecto-ghost-kraken-regresion\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:59:23)\n    at Object.next (C:\\proyecto-ghost-kraken-regresion\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:40:53)\n    at C:\\proyecto-ghost-kraken-regresion\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:34:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\proyecto-ghost-kraken-regresion\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:30:12)\n    at WebClient.stop (C:\\proyecto-ghost-kraken-regresion\\node_modules\\kraken-node\\lib\\clients\\WebClient.js:104:16)\n    at WebClient.<anonymous> (C:\\proyecto-ghost-kraken-regresion\\node_modules\\kraken-node\\lib\\clients\\Client.js:109:51)\n    at step (C:\\proyecto-ghost-kraken-regresion\\node_modules\\kraken-node\\lib\\clients\\Client.js:67:23)\n    at Object.next (C:\\proyecto-ghost-kraken-regresion\\node_modules\\kraken-node\\lib\\clients\\Client.js:48:53)\n    at fulfilled (C:\\proyecto-ghost-kraken-regresion\\node_modules\\kraken-node\\lib\\clients\\Client.js:39:58)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 4
+          },
+          {
+            "name": "@web",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "cambiar-contraseña",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Cambiar contraseña",
+    "tags": [],
+    "uri": "features\\escenario8.feature"
+  }
+]
