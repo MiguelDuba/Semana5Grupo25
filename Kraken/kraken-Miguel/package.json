@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "kraken-node": "^1.0.24"
-  }
+    "kraken-node": "^1.0.24",
+    "npm": "^8.10.0"
+  },
+  "devDependencies": {}
 }

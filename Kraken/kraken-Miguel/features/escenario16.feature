@@ -13,13 +13,12 @@ Scenario: Editar post
     And I wait for 2 seconds
     And I click in the first post of the list
     And I wait for 2 seconds
-    And I enter new title 'Test para editar un post' 
-    And I click outside the page content
+    And I enter title 'Test para editar un post' 
     And I wait for 2 seconds
-    And I click Update
-    And I confirm Update
+    And I click on Update
     And I wait for 2 seconds
-    And I click button to return to the post list
+    And I click on Update again
     And I wait for 2 seconds
-    Then I expect the size of the list is the same
+    And I go to the post list
+    And I wait for 2 seconds
     And I expect the title of the post change to 'Test para editar un post'

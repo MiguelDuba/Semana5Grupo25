@@ -13,9 +13,7 @@ Scenario: Editar post
     And I wait for 2 seconds
     And I click in the first post of the list
     And I wait for 2 seconds
-    And I clean the title 
-    And I click outside the page content
+    And I enter title ''
+    And I click button to return
     And I wait for 2 seconds
-    And I click button to return to the pages list
-    And I confirm to leave the page
-    Then I expect return to the post list page
+    Then I expect return to the 'Post' page

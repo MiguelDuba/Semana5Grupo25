@@ -11,9 +11,22 @@ Scenario: Cambiar nombre
     And I wait for 4 seconds
     And I go to the members list
     And I wait for 2 seconds
-    And I click in the first member of the list
-    And I enter name 'Miembro 50'
-    And I click Save
+    And I click on New Member
+    And I wait for 2 seconds
+    And I set member name 'test nuevo'
+    And I wait for 2 seconds
+    And I set member email random
+    And I wait for 2 seconds
+    And I click on save
     And I wait for 2 seconds
     And I go to the members list
-    Then I expect see the new member name in the list
+    And I wait for 2 seconds
+    And I select the first member
+    And I wait for 2 seconds
+    And I set member name 'test editado'
+    And I wait for 2 seconds
+    And I click on save
+    And I wait for 2 seconds
+    And I go to the members list
+    And I wait for 2 seconds
+    Then I expect the title of the new member change to 'test editado'

@@ -11,10 +11,14 @@ Scenario: Crear miembro
     And I wait for 4 seconds
     And I go to the members list
     And I wait for 2 seconds
-    And I click New member
-    And I enter name 'Miembro 1'
-    And I enter email 'test@otro.com'
-    And I click Save
+    And I click on New Member
+    And I wait for 2 seconds
+    And I set member name 'test nuevo'
+    And I wait for 2 seconds
+    And I set member email random
+    And I wait for 2 seconds
+    And I click on save
     And I wait for 2 seconds
     And I go to the members list
-    Then I expect see the new member in the list
+    And I wait for 2 seconds
+    Then I expect the title of the new member change to 'test nuevo'
