@@ -3,8 +3,8 @@
 En las herramientas Vypress y Kraken se ejecutarán las pruebas para tomar los screenshots. Posteriormente se utilizará la herramienta Resemble.js para la comparación de los screenshots generados.
 Para las pruebas de regresión se usarán las siguientes versiónes de la aplicación Ghost
 
-* Versión Ghost 4.41.3: puero 2368
-* Versión Ghost 3.41.9: puero 3002
+* Versión Ghost 4.41.3: puerto 2368
+* Versión Ghost 3.41.9: puerto 3002
 
 ## Consideraciones a tener en cuenta para hacer las pruebas
 * Para tener dos versiones de ghost que puedan ser ejecutadas simultáneamente se debe instalar docker en su sistema operativo (https://docs.docker.com/engine/install/)
