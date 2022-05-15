@@ -25,8 +25,7 @@ Para las pruebas de regresión se usarán las siguientes versiónes de la aplica
 * Para ejecutar las pruebas en la terminal se debe ir a la carpeta VRT-cypress" y luego ubicarse en la carpeta "cypress-escenarios" y desde esta ubicación ejecutar el comando `cypress open`. Esto abrirá una ventana de la herramienta con los features. Se debe ejecutar cada archivo solamente una vez, para evitar tener duplicados en los screenshots. 
 * Se puede verificar la toma de screenshots abriendo la carpeta "screenshots" mencionada anteriormente.
 * Para comparar las imágenes generadas en cypress, en la terminal desde la carpeta "VRT-cypress" ubicarse en la carpeta "resemble" y ejecutar el comando `node index.js`. Esto generará un reporte que compara las imágenes.
-* Una vez haya terminado la ejecución, se puede entrar a la carpeta "results" dentro de la carpeta "resemble" y ahí encontrará un archivo llamado "reporte.html" el cual puede abrir con un navegador como Chrome para visualizar el reporte.
-
+* Una vez haya terminado la ejecución, se puede entrar a la carpeta "results" dentro de la carpeta "resemble" y ahí entre a la carpeta con la fecha más reciente, encontrará un archivo llamado "report.html" el cual puede abrir con un navegador como Chrome para visualizar el reporte (Se dejará una carpeta de ejecución previa de un reporte como evidencia)
 
 ## Escenarios de pruebas seleccionados
 
