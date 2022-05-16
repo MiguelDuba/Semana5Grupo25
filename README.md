@@ -1,5 +1,7 @@
 # Pruebas regresión semana 6
-El código e instrucciones correspondientes a las modificaciones de las pruebas E2E y las pruebas de regresión, se encuentran en la carpeta "semana 6" del repositorio
+* El código e instrucciones correspondientes a las modificaciones de las pruebas E2E y las pruebas de regresión, se encuentran en la carpeta "semana 6" del repositorio.
+* Los pros y contras de las herramientas ResembleJs y BackstopJs se encuentran en la wiki en la página "Pruebas regresión".
+* Las diferencias reportadas se encuentran en el sistema de registro de incidencias, cuyo acceso se encuentra descrito en la wiki en la página "Pruebas regresión"
 
 # Pruebas E2E Semana 5
 Codigo de la herramientas de kraken y cypress
