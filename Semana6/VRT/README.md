@@ -3,19 +3,22 @@
 En las herramientas Vypress y Kraken se ejecutarán las pruebas para tomar los screenshots. Posteriormente se utilizará la herramienta Resemble.js para la comparación de los screenshots generados.
 Para las pruebas de regresión se usarán las siguientes versiónes de la aplicación Ghost
 
-* Versión Ghost 4.41.3: puerto 2368
-* Versión Ghost 3.41.9: puerto 3002
+* Versión Ghost 4.41.3
+* Versión Ghost 3.41.9
 
 ## Consideraciones a tener en cuenta para hacer las pruebas
 * Para tener dos versiones de ghost que puedan ser ejecutadas simultáneamente se debe instalar docker en su sistema operativo (https://docs.docker.com/engine/install/)
 * Una vez se tenga docker instalado, en una terminal se debe ejecutar el siguiente comando para la versión 3.41.9 de Ghost: 
 * * `docker run -d -e url=http://localhost:3002 -p 3002:2368 --name ghost_3.41.9 ghost:3.41.9`
-* * Después se puede abrir la aplicación Ghost v3.41.9 usando la url http://localhost:3002/ghost
-* Para la versión 4.41.3 se puede ejecutar el mismo paso anterior pero manteniendo el puerto 2368 en lugar del puerto 3002
+* * Después se puede abrir la aplicación Ghost v3.41.9 usando la url http://localhost:3002/ghost para las pruebas VRT en cypress
+* para la versión 3.41.9 en las pruebas VRT de Kraken, usar el puerto 3001
+* Para la versión 4.41.3 usar el puerto 2368
 * Asegurarse de que la aplicación está en ejecución antes de hacer las pruebas en ambos puertos para su respectiva versión
 
 ## Cypress
 
+* Versión Ghost 4.41.3: puerto 2368
+* Versión Ghost 3.41.9: puerto 3002
 * Nombre de usuario: Sara *IMPORTANTE!: Cuando se cree el usuario en ghost en ambas versiones para las pruebas en cypress, debe tener este nombre de usuario para evitar errores en las pruebas del feature contraseña
 * Usuario: sg.ramirez940@uniandes.edu.co
 * Contraseña: UniandesMisw2022
