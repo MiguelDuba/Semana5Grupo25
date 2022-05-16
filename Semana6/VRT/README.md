@@ -26,6 +26,23 @@ Para las pruebas de regresión se usarán las siguientes versiónes de la aplica
 * Para comparar las imágenes generadas en cypress, en la terminal desde la carpeta "VRT-cypress" ubicarse en la carpeta "resemble" y ejecutar el comando `node index.js`. Esto generará un reporte que compara las imágenes.
 * Una vez haya terminado la ejecución, se puede entrar a la carpeta "results" dentro de la carpeta "resemble" y ahí entre a la carpeta con la fecha más reciente, encontrará un archivo llamado "report.html" el cual puede abrir con un navegador como Chrome para visualizar el reporte (Se dejará una carpeta de ejecución previa de un reporte como evidencia)
 
+## Kraken
+* Nombre de usuario: Sara *IMPORTANTE!: Cuando se cree el usuario en ghost en ambas versiones para las pruebas en kraken, debe tener este nombre de usuario para evitar errores en las pruebas del feature contraseña
+* Usuario: s.mayav@uniandes.edu.co
+* Contraseña Ghost 4.41.3: Q*5S#9iKWaNVkhF
+* Contraseña Ghost 3.41.9: Prueb4Mis8341
+* Versión Ghost 4.41.3: puerto 2368
+* Versión Ghost 3.41.9: puerto 3001
+* Asegurarse de que la aplicación Ghost se encuentre en ejecución
+* Preferiblemente usar un sistema operativo linux (virtual o físico) o Mac para evitar problemas al ejecutar los features
+* Ir a la carpeta "VRT-kraken" donde se ubica el código para las pruebas de regresión en kraken
+* En la carpeta features se encuentra cada escenario por separado, si se encuentra ejecutando las pruebas desde windows, se debe copiar y pegar uno a uno en el archivo 'escenario.feature' para realizar las pruebas.
+* Para ejecutar las pruebas en la terminal se debe ir a la carpeta VRT-kraken" y luego ubicarse en la carpeta "kraken-escenarios" y desde esta ubicación ejecutar el comando `kraken-node run`. Se debe ejecutar cada archivo solamente una vez, para evitar tener duplicados en los screenshots. 
+* Se puede verificar la toma de screenshots abriendo la carpeta "screenshots".
+* Para comparar las imágenes generadas en kraken, en la terminal desde la carpeta "VRT-kraken" ubicarse en la carpeta "resemble" y ejecutar el comando `node index.js`. Esto generará un reporte que compara las imágenes.
+* Una vez haya terminado la ejecución, se puede entrar a la carpeta "results" dentro de la carpeta "resemble" y ahí entre a la carpeta con la fecha más reciente, encontrará un archivo llamado "report.html" el cual puede abrir con un navegador como Chrome para visualizar el reporte (Se dejará una carpeta de ejecución previa de un reporte como evidencia)
+
+
 ## Escenarios de pruebas seleccionados
 
 Se seleccionan 5 escenarios, los cuales serán ejecutados en cypress y kraken para las pruebas de regresión
